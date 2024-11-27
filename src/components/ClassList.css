@@ -1,0 +1,33 @@
+.class-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.class-item {
+  width: 200px;
+  padding: 15px;
+  background-color: #f9fff1;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.class-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.class-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.class-time {
+  color: #56ab2f;
+  font-weight: bold;
+}

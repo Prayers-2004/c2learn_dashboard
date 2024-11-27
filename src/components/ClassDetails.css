@@ -1,0 +1,29 @@
+.class-details {
+  background-color: #f9fff1;
+  border: 2px solid #56ab2f;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.class-details-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.class-details h2 {
+  color: #3c763d;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}

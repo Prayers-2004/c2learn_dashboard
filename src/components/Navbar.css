@@ -1,0 +1,82 @@
+/* Main Navbar Styling */
+.navbar {
+    background: linear-gradient(to right, #64b5f6, #bbdefb);
+
+
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    border-bottom: 3px solid #b3e5fc;
+}
+  
+  
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-logo img {
+    width: 100px; /* Adjust logo size */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #f9f5ff; /* Light violet hover effect */
+  }
+  
+  /* Search Bar */
+  .navbar-search input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+  }
+  
+  /* Buttons (Login, Sign Up) */
+  .navbar-actions .navbar-btn {
+    background-color: #f9f5ff; /* Light violet button */
+    color: #7e57c2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-actions .navbar-btn:hover {
+    background-color: #7e57c2;
+    color: white;
+  }
+  
+  .navbar-search input:focus {
+    border: 2px solid #7e57c2;
+  }
+  
